@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Quote of the Day
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Quote of the Day](project-screenshot.png)
 
-## Available Scripts
+Welcome to **Quote of the Day**! This is a user-friendly React.js project that brings you inspiring quotes every day. The app fetches random quotes from the [quotable.io](https://quotable.io) API and presents them in an aesthetically pleasing glassmorphic 3D animated card, accompanied by a captivating neon-colored animated background.
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+You can experience the magic of **Quote of the Day** by visiting the deployed site: [Quote of the Day](https://quote-of-the-day-by-ankur.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Discover thought-provoking quotes fetched from the quotable.io API.
+- Delightful presentation using a glassmorphic 3D animated card.
+- Easy-to-use interface with a "New Quote" button to get a fresh quote instantly.
+- Engaging experience with a mesmerizing neon-colored animated background.
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot 1](screenshots/screenshot-1.png)
+![Screenshot 2](screenshots/screenshot-2.png)
 
-### `npm run build`
+## Installation and Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/Ankur-Kumar-Gupta/quote-of-the-day.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+```
+cd quote-of-the-day
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the project dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Set up the `homepage` in `package.json` for deployment. Open `package.json` and update the `"homepage"` field with your Netlify deployment URL:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```json
+"homepage": "https://quote-of-the-day-by-ankur.netlify.app/",
+```
 
-## Learn More
+5. Run the app in development mode:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Open your browser and visit `http://localhost:3000` to view the app locally.
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app is successfully deployed using Netlify. Visit the live site here: [Quote of the Day](https://quote-of-the-day-by-ankur.netlify.app/)
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React.js: A JavaScript library for building user interfaces.
+- CSS: Styling for the app components and animations.
 
-### Making a Progressive Web App
+## API Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Quote of the Day** sources its quotes from the [quotable.io](https://quotable.io) API. All quotes and author information are provided by quotable.io.
 
-### Advanced Configuration
+## Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions to this project are highly appreciated! If you have any suggestions, feedback, or bug reports, feel free to open an issue or submit a pull request.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the [MIT License](LICENSE).
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any queries or collaborations related to this project, feel free to reach out:
+
+- GitHub: [Ankur-Kumar-Gupta](https://github.com/Ankur-Kumar-Gupta/)
+- Email: akumarg66@gmail.com
+
+---
+
+Thank you for exploring **Quote of the Day**! We hope it brings you daily inspiration and positive vibes. If you enjoyed the app, don't forget to give it a ⭐️ on GitHub. Happy reading!
