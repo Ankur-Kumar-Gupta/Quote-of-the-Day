@@ -1,0 +1,81 @@
+.random-quote {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transform-style: preserve-3d; /* Enables 3D transformations */
+  perspective: 1000px; /* Perspective for 3D animations */
+}
+
+/* Add a hover effect to the card */
+.random-quote:hover {
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px) scale(1.03);
+}
+
+.quote-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateZ(50px); /* Create a depth effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add a hover effect to the quote area */
+.random-quote:hover .quote-area {
+  transform: translateZ(100px);
+}
+
+.quote-area i {
+  font-size: 25px;
+  margin: 0 10px;
+  color: #000000;
+}
+
+.quote {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.author {
+  display: flex;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  justify-content: flex-end;
+  color: #000000;
+}
+
+.author span:first-child {
+  margin-right: 5px;
+  font-family: monospace;
+}
+
+button {
+  border: none;
+  color: #ffffff;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #000000a1;
+  box-shadow: 5px 5px 100px rgba(255, 255, 255, 0.603);
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
