@@ -23,7 +23,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #00ff00, #ff00ff, #00ffff, #ff00ff,  #00ff00, #ff00ff, #00ffff, #ff00ff);
+  background: linear-gradient(45deg, #00ff00, #ff00ff, #00ffff, #ff00ff,  #00ff00, #00ffff, #00ffff, #ff00ff);
   background-size: 500% 500%;
   animation: animateBackground 10s ease infinite;
   z-index: 0; /* Move the background behind the content */
